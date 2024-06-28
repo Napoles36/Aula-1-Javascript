@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 1- Js</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        body{
+            background-color: yellow;
+        }
+
+        h1{
+            color:rgb(83, 46, 219);
+            text-align: center;
+        }
+            
+        .btn{
+            color: red;
+
+        }
+
+    </style>
+    <script src="main.js"></script>
+    <script>
+        function changeTheme()
+        {
+            document.getElementById("Clique").style.backgroundColor="white"; 
+        }
+    </script>
+
+</head>
+<body id="Clique">
+    <h1>Aprendendo a programar com JS</h1>
+    <br>
+    <button onclick="changeTheme()" class="btn">Clique</button>
+   
+</body>
+
+</html>
